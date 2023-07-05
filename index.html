@@ -73,15 +73,15 @@
 
 		.modal {
 			display: none;
-			background-color: white;
+			background-color: grey;
+			border-radius: 5px;
 			position: fixed;
 			top: 0;
 			bottom: 0;
 			right: 0;
 			left: 0;
 			margin: auto;
-			width: 50rem;
-			height: 80vh;
+			height: fit-content;
 		}
 
 		.contact form {
@@ -199,7 +199,7 @@
 
 		<h2 class="mt-5 text-light text-center">- Contact -</h2>
 
-		<form class="text-light w-50">
+		<form class="text-light w-75">
 			<div class="mb-3">
 				<label class="form-label">Your Name</label>
 				<input type="text" class="form-control">
@@ -226,10 +226,10 @@
 	<!-- Akhir Footer -->
 
 	<!-- Awal Modal -->
-	<div class="modal" id="modal">
+	<div class="container modal w-75" id="modal">
 		<div class="container">
 			<i class="bi bi-x float-end close fs-3" style="cursor: pointer;"></i>
-			<img src="img/1.jpg" alt="produk 1" class="w-100 jumbo">
+			<img src="img/1.jpg" alt="produk 1" class="w-100 jumbo pb-4">
 		</div>
 	</div>
 	<!-- Akhir Modal -->
