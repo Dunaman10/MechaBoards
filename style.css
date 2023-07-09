@@ -71,6 +71,10 @@
   width: 50rem;
 }
 
+footer .link {
+  text-align: center;
+}
+
 .contact form {
   margin: 0 auto;
 }
